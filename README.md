@@ -1,6 +1,7 @@
 Reproduce:
 
 `npm i`
+
 `npm run test`
 
 fails with:
@@ -23,5 +24,5 @@ Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: No "exports" main defined in ./node_modul
 
 
 **NOTE**
-- if `execa` is downgraded to `9.3.1` it does not fail
 - if renaming `index.ts` to `index.mjs`. running it with `node index.mjs` works as expected
+- also, if `execa` is downgraded to `9.3.1` it does not fail
