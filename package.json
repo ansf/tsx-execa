@@ -1,0 +1,12 @@
+{
+  "name": "execa-tsx",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "tsx ./index.ts"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "execa": "^9.5.1",
+    "tsx": "4.19.2"
+  }
+}
